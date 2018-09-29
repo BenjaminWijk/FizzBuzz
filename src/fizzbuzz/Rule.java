@@ -4,8 +4,7 @@ package fizzbuzz;
 import java.util.function.Predicate;
 
 public class Rule {
-
-
+    
     private Predicate<Integer> condition;
     private String output;
 
