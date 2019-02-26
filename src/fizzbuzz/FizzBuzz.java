@@ -30,12 +30,12 @@ public class FizzBuzz {
 
     public void printFizzBuzz(){
         for (int i=0; i<gameLength; i++){
-            System.out.print(printLine(i));
-            System.out.print("\n");
+            System.out.println(buildLine(i));
+
         }
     }
 
-    private String printLine(Integer i){
+    private String buildLine(Integer i){
         StringBuilder sb = new StringBuilder();
 
         for (Rule rule : ruleList) {
